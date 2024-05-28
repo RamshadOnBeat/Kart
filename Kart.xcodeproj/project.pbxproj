@@ -9,13 +9,32 @@
 /* Begin PBXBuildFile section */
 		6CB1AB7F2C05B27300F06220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1AB7E2C05B27300F06220 /* AppDelegate.swift */; };
 		6CB1AB812C05B27300F06220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1AB802C05B27300F06220 /* SceneDelegate.swift */; };
-		6CB1AB832C05B27300F06220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1AB822C05B27300F06220 /* ViewController.swift */; };
 		6CB1AB862C05B27300F06220 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1AB852C05B27300F06220 /* Base */; };
 		6CB1AB882C05B27400F06220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1AB872C05B27400F06220 /* Assets.xcassets */; };
 		6CB1AB8B2C05B27400F06220 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1AB8A2C05B27400F06220 /* Base */; };
 		6CB1AB962C05B27400F06220 /* KartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1AB952C05B27400F06220 /* KartTests.swift */; };
 		6CB1ABA02C05B27400F06220 /* KartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1AB9F2C05B27400F06220 /* KartUITests.swift */; };
 		6CB1ABA22C05B27400F06220 /* KartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABA12C05B27400F06220 /* KartUITestsLaunchTests.swift */; };
+		6CB1ABB32C05B46200F06220 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABB22C05B46200F06220 /* BaseViewController.swift */; };
+		6CB1ABBA2C05B56C00F06220 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABB92C05B56C00F06220 /* LoginVC.swift */; };
+		6CB1ABBC2C05B5B500F06220 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABBB2C05B5B500F06220 /* LoginViewModel.swift */; };
+		6CB1ABBF2C05B61400F06220 /* UrlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABBE2C05B61400F06220 /* UrlConstants.swift */; };
+		6CB1ABC12C05B6C600F06220 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABC02C05B6C600F06220 /* ApiServices.swift */; };
+		6CB1ABC32C05B6D900F06220 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABC22C05B6D900F06220 /* ApiClient.swift */; };
+		6CB1ABC52C05B7B300F06220 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABC42C05B7B300F06220 /* ApiError.swift */; };
+		6CB1ABC82C05B8FE00F06220 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6CB1ABC72C05B8FE00F06220 /* Alamofire */; };
+		6CB1ABCA2C05BAAB00F06220 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABC92C05BAAB00F06220 /* NetworkReachability.swift */; };
+		6CB1ABCC2C05BE8100F06220 /* UserEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABCB2C05BE8100F06220 /* UserEndPoint.swift */; };
+		6CB1ABCE2C05BFAE00F06220 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABCD2C05BFAE00F06220 /* LoginModel.swift */; };
+		6CB1ABD02C05C15A00F06220 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABCF2C05C15A00F06220 /* ApiManager.swift */; };
+		6CB1ABD22C0601A000F06220 /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABD12C0601A000F06220 /* UIViewController+extension.swift */; };
+		6CB1ABD52C0605F600F06220 /* UserDefaultManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABD42C0605F600F06220 /* UserDefaultManger.swift */; };
+		6CB1ABD72C06065000F06220 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABD62C06065000F06220 /* Global.swift */; };
+		6CB1ABDD2C0614EC00F06220 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABDC2C0614EC00F06220 /* HomeView.swift */; };
+		6CB1ABE02C06176A00F06220 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1ABDF2C06176A00F06220 /* HomeCollectionViewCell.xib */; };
+		6CB1ABE12C06176A00F06220 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABDE2C06176A00F06220 /* HomeCollectionViewCell.swift */; };
+		6CB1ABE32C06193D00F06220 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABE22C06193D00F06220 /* HomeViewModel.swift */; };
+		6CB1ABE52C061CF500F06220 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1ABE42C061CF500F06220 /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +58,6 @@
 		6CB1AB7B2C05B27300F06220 /* Kart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB1AB7E2C05B27300F06220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CB1AB802C05B27300F06220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CB1AB822C05B27300F06220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CB1AB852C05B27300F06220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CB1AB872C05B27400F06220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CB1AB8A2C05B27400F06220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,25 @@
 		6CB1AB9B2C05B27400F06220 /* KartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB1AB9F2C05B27400F06220 /* KartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartUITests.swift; sourceTree = "<group>"; };
 		6CB1ABA12C05B27400F06220 /* KartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CB1ABB22C05B46200F06220 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6CB1ABB92C05B56C00F06220 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6CB1ABBB2C05B5B500F06220 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6CB1ABBE2C05B61400F06220 /* UrlConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlConstants.swift; sourceTree = "<group>"; };
+		6CB1ABC02C05B6C600F06220 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		6CB1ABC22C05B6D900F06220 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		6CB1ABC42C05B7B300F06220 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		6CB1ABC92C05BAAB00F06220 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		6CB1ABCB2C05BE8100F06220 /* UserEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndPoint.swift; sourceTree = "<group>"; };
+		6CB1ABCD2C05BFAE00F06220 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		6CB1ABCF2C05C15A00F06220 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		6CB1ABD12C0601A000F06220 /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		6CB1ABD42C0605F600F06220 /* UserDefaultManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManger.swift; sourceTree = "<group>"; };
+		6CB1ABD62C06065000F06220 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		6CB1ABDC2C0614EC00F06220 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6CB1ABDE2C06176A00F06220 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		6CB1ABDF2C06176A00F06220 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		6CB1ABE22C06193D00F06220 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6CB1ABE42C061CF500F06220 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB1ABC82C05B8FE00F06220 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +137,17 @@
 		6CB1AB7D2C05B27300F06220 /* Kart */ = {
 			isa = PBXGroup;
 			children = (
+				6CB1ABB12C05B41400F06220 /* Resources */,
+				6CB1ABB02C05B40A00F06220 /* Scenes */,
+				6CB1ABAF2C05B3FE00F06220 /* Networking */,
+				6CB1ABAE2C05B3F100F06220 /* Utilities */,
 				6CB1AB7E2C05B27300F06220 /* AppDelegate.swift */,
 				6CB1AB802C05B27300F06220 /* SceneDelegate.swift */,
-				6CB1AB822C05B27300F06220 /* ViewController.swift */,
 				6CB1AB842C05B27300F06220 /* Main.storyboard */,
 				6CB1AB872C05B27400F06220 /* Assets.xcassets */,
 				6CB1AB892C05B27400F06220 /* LaunchScreen.storyboard */,
 				6CB1AB8C2C05B27400F06220 /* Info.plist */,
+				6CB1ABB22C05B46200F06220 /* BaseViewController.swift */,
 			);
 			path = Kart;
 			sourceTree = "<group>";
@@ -127,6 +169,140 @@
 			path = KartUITests;
 			sourceTree = "<group>";
 		};
+		6CB1ABAE2C05B3F100F06220 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABD32C0605D800F06220 /* Helpers */,
+				6CB1ABBD2C05B5D100F06220 /* Extensions */,
+				6CB1ABBE2C05B61400F06220 /* UrlConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6CB1ABAF2C05B3FE00F06220 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABC02C05B6C600F06220 /* ApiServices.swift */,
+				6CB1ABC22C05B6D900F06220 /* ApiClient.swift */,
+				6CB1ABC42C05B7B300F06220 /* ApiError.swift */,
+				6CB1ABC92C05BAAB00F06220 /* NetworkReachability.swift */,
+				6CB1ABCB2C05BE8100F06220 /* UserEndPoint.swift */,
+				6CB1ABCF2C05C15A00F06220 /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6CB1ABB02C05B40A00F06220 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABB82C05B54400F06220 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6CB1ABB12C05B41400F06220 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CB1ABB42C05B46F00F06220 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CB1ABB52C05B47800F06220 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABCD2C05BFAE00F06220 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CB1ABB62C05B48200F06220 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABB42C05B46F00F06220 /* View */,
+				6CB1ABBB2C05B5B500F06220 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6CB1ABB72C05B4A900F06220 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABB92C05B56C00F06220 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CB1ABB82C05B54400F06220 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABD82C06141300F06220 /* Home */,
+				6CB1ABB72C05B4A900F06220 /* View */,
+				6CB1ABB62C05B48200F06220 /* ViewModel */,
+				6CB1ABB52C05B47800F06220 /* Model */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		6CB1ABBD2C05B5D100F06220 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABD12C0601A000F06220 /* UIViewController+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6CB1ABD32C0605D800F06220 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABD42C0605F600F06220 /* UserDefaultManger.swift */,
+				6CB1ABD62C06065000F06220 /* Global.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6CB1ABD82C06141300F06220 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABDB2C06142F00F06220 /* ViewModel */,
+				6CB1ABDA2C06142700F06220 /* View */,
+				6CB1ABD92C06141D00F06220 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6CB1ABD92C06141D00F06220 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABE42C061CF500F06220 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CB1ABDA2C06142700F06220 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABDC2C0614EC00F06220 /* HomeView.swift */,
+				6CB1ABDE2C06176A00F06220 /* HomeCollectionViewCell.swift */,
+				6CB1ABDF2C06176A00F06220 /* HomeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CB1ABDB2C06142F00F06220 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1ABE22C06193D00F06220 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +319,9 @@
 			dependencies = (
 			);
 			name = Kart;
+			packageProductDependencies = (
+				6CB1ABC72C05B8FE00F06220 /* Alamofire */,
+			);
 			productName = Kart;
 			productReference = 6CB1AB7B2C05B27300F06220 /* Kart.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +394,9 @@
 				Base,
 			);
 			mainGroup = 6CB1AB722C05B27200F06220;
+			packageReferences = (
+				6CB1ABC62C05B8FE00F06220 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 6CB1AB7C2C05B27300F06220 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +416,7 @@
 				6CB1AB882C05B27400F06220 /* Assets.xcassets in Resources */,
 				6CB1AB8B2C05B27400F06220 /* Base in Resources */,
 				6CB1AB862C05B27300F06220 /* Base in Resources */,
+				6CB1ABE02C06176A00F06220 /* HomeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +441,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CB1AB832C05B27300F06220 /* ViewController.swift in Sources */,
+				6CB1ABE32C06193D00F06220 /* HomeViewModel.swift in Sources */,
+				6CB1ABB32C05B46200F06220 /* BaseViewController.swift in Sources */,
+				6CB1ABCE2C05BFAE00F06220 /* LoginModel.swift in Sources */,
+				6CB1ABD22C0601A000F06220 /* UIViewController+extension.swift in Sources */,
+				6CB1ABC12C05B6C600F06220 /* ApiServices.swift in Sources */,
 				6CB1AB7F2C05B27300F06220 /* AppDelegate.swift in Sources */,
+				6CB1ABE12C06176A00F06220 /* HomeCollectionViewCell.swift in Sources */,
+				6CB1ABC32C05B6D900F06220 /* ApiClient.swift in Sources */,
+				6CB1ABE52C061CF500F06220 /* HomeModel.swift in Sources */,
+				6CB1ABD52C0605F600F06220 /* UserDefaultManger.swift in Sources */,
+				6CB1ABBA2C05B56C00F06220 /* LoginVC.swift in Sources */,
+				6CB1ABDD2C0614EC00F06220 /* HomeView.swift in Sources */,
+				6CB1ABD72C06065000F06220 /* Global.swift in Sources */,
+				6CB1ABC52C05B7B300F06220 /* ApiError.swift in Sources */,
+				6CB1ABBF2C05B61400F06220 /* UrlConstants.swift in Sources */,
+				6CB1ABD02C05C15A00F06220 /* ApiManager.swift in Sources */,
+				6CB1ABBC2C05B5B500F06220 /* LoginViewModel.swift in Sources */,
 				6CB1AB812C05B27300F06220 /* SceneDelegate.swift in Sources */,
+				6CB1ABCA2C05BAAB00F06220 /* NetworkReachability.swift in Sources */,
+				6CB1ABCC2C05BE8100F06220 /* UserEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +807,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CB1ABC62C05B8FE00F06220 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CB1ABC72C05B8FE00F06220 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CB1ABC62C05B8FE00F06220 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6CB1AB732C05B27200F06220 /* Project object */;
 }
